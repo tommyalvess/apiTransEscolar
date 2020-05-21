@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.jd",
+    "test": "cross-env NODE_ENV=testing jest"
+  },
+  "author": "Tom Alves",
+  "license": "ISC",
+  "dependencies": {
+    "celebrate": "^12.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "mysql": "^2.18.1",
+    "cross-env": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "jest": "^26.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "eslint": "^7.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.20.0",
+    "supertest": "^4.0.2"
+  }
+}
